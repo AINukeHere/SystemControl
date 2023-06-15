@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Add_Float" Collapsed="true">
+    <Position X="3.25" Y="5" Width="1.5" />
+    <InheritanceLine Type="Operator&lt;T, R&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="2.5" Y="4.441" />
+        <Point X="2.5" Y="4.625" />
+        <Point X="4" Y="4.625" />
+        <Point X="4" Y="5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\Add_Float.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Brench" Collapsed="true">
+    <Position X="6.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAABAAAAAAAAEAAAACAgQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Control\Brench.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StringCase" Collapsed="true">
+    <Position X="3.25" Y="26" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAABAAAAEgAAAAAACAAAAEAAAAAAAQAAAAEAAAEE=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Control\StringCase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SwitchOnString" Collapsed="true">
+    <Position X="10.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgUAQAAAAAAAAAAAAAQAAEAAMAAAAAAgQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Control\SwitchOnString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AvoiderCollision" Collapsed="true">
+    <Position X="5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAEAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Event\AvoiderCollision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeginPlayEvent" Collapsed="true">
+    <Position X="6.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Event\BeginPlayEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyDownEvent" Collapsed="true">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Event\KeyDownEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LateTickEvent" Collapsed="true">
+    <Position X="10.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Event\LateTickEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TickEvent" Collapsed="true">
+    <Position X="12" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Event\TickEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TouchEvent" Collapsed="true">
+    <Position X="3.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Event\TouchEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Folder" Collapsed="true">
+    <Position X="1" Y="26" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAAAAAABAAEhAAAAIAAAAEAAgIAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Folder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AddScore" Collapsed="true">
+    <Position X="3.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAEAAAACAgQAAAAAAAACA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Function\AddScore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AvoiderReset" Collapsed="true">
+    <Position X="5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAABAAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Function\AvoiderReset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetComponent" Collapsed="true">
+    <Position X="8.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAEAAQACAgQAAAAAAAAQA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Function\GetComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IsPlayingAudioSource" Collapsed="true">
+    <Position X="2.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAABAQEAAAACAgQAgAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Function\IsPlayingAudioSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadScene" Collapsed="true">
+    <Position X="12" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAAAAAAAAAAAAEAAAACAgQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Function\LoadScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayAudioClip" Collapsed="true">
+    <Position X="13.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAwAAAAAAAAAAAAAAAAAAAAAEAAAACAgQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Function\PlayAudioClip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetActiveWall" Collapsed="true">
+    <Position X="15.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBQAAAAAAAAAAAAAAAAAAAAAEAAAACAgQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Function\SetActiveWall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StartStage" Collapsed="true">
+    <Position X="17.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAAAAAAAAAAAAEAAAACAgQAAAAAAAACA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Function\StartStage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubtractScore" Collapsed="true">
+    <Position X="19" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAAAAAAAAAAAAEAAAACAgQAAAAAAAACA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Function\SubtractScore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModuleColorize" Collapsed="true">
+    <Position X="8.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAFA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAIIAgAAAAggCAAAYAAAAAAAgQAAJAAAAAEE=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ActivatableNode" Collapsed="true">
+    <Position X="1.75" Y="10.75" Width="1.5" />
+    <InheritanceLine Type="Node" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="3.191" />
+        <Point X="1.25" Y="11.062" />
+        <Point X="1.75" Y="11.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAABAAAABAAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MethodNode" Collapsed="true">
+    <Position X="1.75" Y="16.25" Width="1.5" />
+    <InheritanceLine Type="Node" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="3.191" />
+        <Point X="1.25" Y="16.562" />
+        <Point X="1.75" Y="16.562" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAgAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotInputNotNodeActivatable" Collapsed="true">
+    <Position X="2.25" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAABAAAABAAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Operator&lt;T, R&gt;" Collapsed="true">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="Node" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="3.191" />
+        <Point X="1.25" Y="4.125" />
+        <Point X="1.75" Y="4.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAABAAAAAAAGAAAABAAQAAAAAAAgGA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutputModule&lt;T&gt;" Collapsed="true">
+    <Position X="24.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAYAAgAEAAAAgAgAQEQAAAlAoEAEBAAAACEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GetVariable" Collapsed="true">
+    <Position X="1.75" Y="8.5" Width="1.5" />
+    <InheritanceLine Type="Node" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="3.191" />
+        <Point X="1.25" Y="8.812" />
+        <Point X="1.75" Y="8.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetVariable&lt;T&gt;" Collapsed="true">
+    <Position X="1.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAAAAAAAAAAAAEAAAACAgQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Event" Collapsed="true">
+    <Position X="1.75" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="Node" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="3.191" />
+        <Point X="1.25" Y="6.625" />
+        <Point X="1.75" Y="6.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAAAAAAAAABAAAABAAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActiveInputModule" Collapsed="true">
+    <Position X="5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\ActiveInputModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ActiveOutputModule" Collapsed="true">
+    <Position X="22.25" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\ActiveOutputModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioClipInputModule" Collapsed="true">
+    <Position X="14" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\AudioClipInputModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AudioClipOutputModule" Collapsed="true">
+    <Position X="29" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\AudioClipOutputModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioSourceInputModule" Collapsed="true">
+    <Position X="20.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\AudioSourceInputModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AudioSourceOutputModule" Collapsed="true">
+    <Position X="35.75" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\AudioSourceOutputModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoolInputModule" Collapsed="true">
+    <Position X="0.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\BoolInputModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BoolOutputModule" Collapsed="true">
+    <Position X="15.5" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\BoolOutputModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentInputModule" Collapsed="true">
+    <Position X="7.25" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\ComponentInputModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ComponentOutputModule" Collapsed="true">
+    <Position X="20" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\ComponentOutputModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloatInputModule" Collapsed="true">
+    <Position X="11.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\FloatInputModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FloatOutputModule" Collapsed="true">
+    <Position X="26.75" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\FloatOutputModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObjectInputModule" Collapsed="true">
+    <Position X="18.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\GameObjectInputModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameObjectOutputModule" Collapsed="true">
+    <Position X="33.5" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\GameObjectOutputModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntInputModule" Collapsed="true">
+    <Position X="22.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\IntInputModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="IntOutputModule" Collapsed="true">
+    <Position X="13.25" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\IntOutputModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StringInputModule" Collapsed="true">
+    <Position X="2.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\StringInputModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StringOutputModule" Collapsed="true">
+    <Position X="17.75" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\StringOutputModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector2InputModule" Collapsed="true">
+    <Position X="9.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\Vector2InputModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Vector2OutputModule" Collapsed="true">
+    <Position X="24.5" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\Vector2OutputModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector3InputModule" Collapsed="true">
+    <Position X="16.25" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\Vector3InputModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Vector3OutputModule" Collapsed="true">
+    <Position X="31.25" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\Vector3OutputModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Absolute_Float" Collapsed="true">
+    <Position X="29.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\Absolute_Float.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Add_Int" Collapsed="true">
+    <Position X="5" Y="5" Width="1.5" />
+    <InheritanceLine Type="Operator&lt;T, R&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="2.5" Y="4.441" />
+        <Point X="2.5" Y="4.625" />
+        <Point X="5.812" Y="4.625" />
+        <Point X="5.812" Y="5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\Add_Int.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BreakVector2" Collapsed="true">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\BreakVector2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BreakVector3" Collapsed="true">
+    <Position X="12" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\BreakVector3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Equal_Float" Collapsed="true">
+    <Position X="13.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\Equal_Float.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Equal_String" Collapsed="true">
+    <Position X="15.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\Equal_String.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Greater_Float" Collapsed="true">
+    <Position X="17.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\Greater_Float.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Greater_Int" Collapsed="true">
+    <Position X="19" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\Greater_Int.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Int2Float" Collapsed="true">
+    <Position X="20.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\Int2Float.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Less_Float" Collapsed="true">
+    <Position X="22.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\Less_Float.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Less_Int" Collapsed="true">
+    <Position X="24.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\Less_Int.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MakeVector2" Collapsed="true">
+    <Position X="26" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\MakeVector2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MakeVector3" Collapsed="true">
+    <Position X="27.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\MakeVector3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Multiply_Float" Collapsed="true">
+    <Position X="31.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\Multiply_Float.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Subtract_Float" Collapsed="true">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\Subtract_Float.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Subtract_Int" Collapsed="true">
+    <Position X="10.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Operator\Subtract_Int.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantAudioClip" Collapsed="true">
+    <Position X="9" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAACAgQAAAAAAAAgA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\ConstantAudioClip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantBool" Collapsed="true">
+    <Position X="13" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAABAAAACAgQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\ConstantBool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantFloat" Collapsed="true">
+    <Position X="16.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAACAgQCAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\ConstantFloat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantInt" Collapsed="true">
+    <Position X="20" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAACAgQAAAAAAACAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\ConstantInt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantString" Collapsed="true">
+    <Position X="23.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAACAwQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\ConstantString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantVector2" Collapsed="true">
+    <Position X="25.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAABAAAACAgQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\ConstantVector2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetAvoiderScale" Collapsed="true">
+    <Position X="27" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAoQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\GetAvoiderScale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetAvoiderVelocity" Collapsed="true">
+    <Position X="28.75" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoQAAAAABAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\GetAvoiderVelocity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetAvoiderX" Collapsed="true">
+    <Position X="30.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAABAAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\GetAvoiderX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetAvoiderY" Collapsed="true">
+    <Position X="32.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAABAAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\GetAvoiderY.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetCurrentStageNum" Collapsed="true">
+    <Position X="3.25" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\GetCurrentStageNum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetDeltaTime" Collapsed="true">
+    <Position X="5.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\GetDeltaTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetGameCameraPos" Collapsed="true">
+    <Position X="7" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAFA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\GetGameCameraPos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetHorizontalInput" Collapsed="true">
+    <Position X="11" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\GetHorizontalInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetNodeCameraX" Collapsed="true">
+    <Position X="14.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\GetNodeCameraX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetNodeCameraY" Collapsed="true">
+    <Position X="18.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\GetNodeCameraY.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetVerticalInput" Collapsed="true">
+    <Position X="21.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\GetVerticalInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetAvoiderGravityScale" Collapsed="true">
+    <Position X="6.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\SetAvoiderGravityScale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetAvoiderScale" Collapsed="true">
+    <Position X="8.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\SetAvoiderScale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetAvoiderVelocity" Collapsed="true">
+    <Position X="10.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAEAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\SetAvoiderVelocity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetAvoiderX" Collapsed="true">
+    <Position X="12" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\SetAvoiderX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetAvoiderY" Collapsed="true">
+    <Position X="13.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\SetAvoiderY.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetGameCameraPos" Collapsed="true">
+    <Position X="15.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAFA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\SetGameCameraPos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetNodeCameraX" Collapsed="true">
+    <Position X="3.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\SetNodeCameraX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetNodeCameraY" Collapsed="true">
+    <Position X="5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Variable\SetNodeCameraY.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ActivateType" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Module\ActiveOutputModule.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="IResetable" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAEA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IHasInfo" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IMovable" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAQAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IInputParam&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IExpandableDisplay" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAE=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="GetComponentTypes" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\Function\GetComponent.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ModuleValueType" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAAAAAAAAAAAABABAAAAAAIAAgAAAAAoAEAAAA=</HashCode>
+      <FileName>Assets\2.Scripts\GraphSystem\Node\NodeManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
